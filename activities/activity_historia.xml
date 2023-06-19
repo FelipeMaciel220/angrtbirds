@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D8818"
+    tools:context=".historia">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="456dp"
+        android:layout_height="647dp"
+        android:background="#A579F3"
+        android:text="@string/tudo_come_a_num_mundo_relativamente_pac_fico_existia_a_ilha_dos_p_ssaros_e_a_dos_porcos_cada_uma_vivendo_sua_vida_cotidiana_do_seu_jeito_um_dia_o_gra_de_rei_porco_ordena_que_seus_numerosos_s_ditos_roubem_os_filhotes_dos_p_ssaros_para_fazerem_um_grande_banquete_para_seu_imp_rio_ent_o_come_a_a_jornada_de_red_e_seus_amigos_pela_seguran_a_dos_filhotes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/voltarhist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="@string/voltar"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

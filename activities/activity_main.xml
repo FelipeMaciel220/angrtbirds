@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnhistoria"
+        android:layout_width="141dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#BF0000"
+        android:text="@string/hist_ria"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/whatsapp_image_2023_06_15_at_08_07_11_removebg_preview"
+        tools:ignore="MissingConstraints,VisualLintBounds,ImageContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-88dp" />
+
+    <Button
+        android:id="@+id/btnpersonagens"
+        android:layout_width="173dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E3AE00"
+        android:text="@string/personagens"
+        android:textColor="#5D4037"
+        app:layout_constraintBottom_toTopOf="@+id/btncuriosidades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhistoria"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btncreditos"
+        android:layout_width="124dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#0072FD"
+        android:text="@string/cr_ditos"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhistoria"
+        app:layout_constraintVertical_bias="0.684"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btncuriosidades"
+        android:layout_width="163dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="#000000"
+        android:text="@string/curiosidades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhistoria"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
